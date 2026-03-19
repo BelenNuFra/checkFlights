@@ -1,5 +1,6 @@
 def transform_flights(data):
-    #validamos que que tengamos datos
+
+    #validates if data has information 
     if not isinstance(data, dict):
         raise TypeError("data must be a dictionary")
 
